@@ -22,6 +22,8 @@ dependencies {
     runtimeOnly 'com.microsoft.sqlserver:mssql-jdbc'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.awaitility:awaitility:4.1.1'
+    implementation 'org.flywaydb:flyway-core:6.4.3'
+
 
 }
 

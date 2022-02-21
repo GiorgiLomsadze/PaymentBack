@@ -22,7 +22,7 @@ public class ScheduledTasks {
     public final SendDataViewService sendDataViewService;
 
 
-    @Scheduled(fixedRate = 1620000)
+    @Scheduled(fixedRate = 1800000)
     public void reportCurrentTime() {
         log.info("------------------------------------------------------");
         log.info("The given information was sent to the server...");
